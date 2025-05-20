@@ -59,7 +59,7 @@
 
         // Cargar modelo 3D
         const loader = new THREE.GLTFLoader();
-        loader.load('Mesa.glb', function (gltf) {
+        loader.load('v8_5.8L.obj', function (gltf) {
             const model = gltf.scene;
             scene.add(model);
 
